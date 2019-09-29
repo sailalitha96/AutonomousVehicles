@@ -18,8 +18,9 @@ package name sai_safety -- the package for the safety_node.cpp
 
 sai_safety/safety_node -- thsi is nde which estimates the time for collision 
 
-
+run command rosrun sai_safety safety_node
 Package name Sai_wall 
 
-ai_wall/src / wall_follwoing - this is node for following a particular wall. 
+sai_wall/src / wall_follwoing - this is node for following a particular wall. 
 
+run command rosrun sai_wall wall_following
