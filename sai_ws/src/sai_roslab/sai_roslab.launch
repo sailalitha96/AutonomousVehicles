@@ -1,0 +1,4 @@
+<launch>
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find sai_roslab)/rviz/config_file.rviz" />
+  <node type="lidar_processing" name="lidar_node" pkg="sai_roslab" args="-d $(find sai_roslab)/src/lidar_processing.cpp" />  
+</launch>

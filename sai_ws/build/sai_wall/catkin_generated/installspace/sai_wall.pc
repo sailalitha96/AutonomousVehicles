@@ -1,0 +1,8 @@
+prefix=/home/sg/sai_ws/install
+
+Name: sai_wall
+Description: Description of sai_wall
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/sg/sai_ws/install/lib -lsai_wall
+Requires: roscpp rospy std_msgs ackermann_msgs tf2_ros geometry_msgs
