@@ -1,8 +1,0 @@
-prefix=/home/sg/sai_ws/install
-
-Name: sai_roslab
-Description: Description of sai_roslab
-Version: 0.0.0
-Cflags: -I/home/sg/sai_ws/install/include
-Libs: -L/home/sg/sai_ws/install/lib -lsai_roslab
-Requires: roscpp rospy std_msgs message_runtime
