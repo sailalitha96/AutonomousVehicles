@@ -1,8 +1,0 @@
-prefix=/home/sg/sai_ws/devel
-
-Name: sai_safety
-Description: Description of sai_safety
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/sg/sai_ws/devel/lib -lsai_safety
-Requires: roscpp rospy std_msgs ackermann_msgs tf2_ros geometry_msgs
